@@ -8,7 +8,7 @@ import MusicComponents from "../components/music";
 const Home = () => {
   return (
     <div className="container mx-auto px-[2rem] py-[3rem]">
-      <div className="widgets grid grid-cols-2 grid-rows-2 gap-[1.2rem] max-[1045px]:flex max-[1045px]:flex-col mb-[0.5rem]">
+      <div className="widgets grid grid-cols-2 grid-rows-2 gap-[1.2rem] max-[1045px]:flex max-[1045px]:flex-col mb-[1rem]">
         <div className="row-span-3">
           <WeatherComponent />
         </div>
